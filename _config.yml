@@ -1,10 +1,8 @@
-title: Your awesome title
-email: your-email@domain.com
+title: Forever Love Pet Care - Loveland Dog Walking and Pet Care
+email: foreverlovepetcare@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/2017_personal_portfolio" # the subpath of your site, e.g. /blog
+  Forever Love Pet Care provides dog walking, drop-ins, overnight stays and other pet care services to residents of Loveland, Colorado 80537; 80538; 80521
+baseurl: "/foreverlovepetcare" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
 github_username:  jwizerd
 
