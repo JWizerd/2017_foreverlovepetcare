@@ -2306,7 +2306,7 @@ footer * { font-family: "Pangolin", cursive; }
 
 .fb { color: #3b5998; }
 
-.gplus { color: #ea4335; }
+.gplus { color: #ea4335; padding-right: 0; }
 
 .impactstudio { width: 150px; height: auto; padding-left: 5px; }
 

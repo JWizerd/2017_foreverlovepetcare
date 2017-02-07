@@ -303,7 +303,8 @@ footer * {
 }
 
 .gplus {
-  color: $gplus
+  color: $gplus;
+  padding-right: 0;
 }
 
 .impactstudio {
@@ -360,7 +361,7 @@ footer * {
   .navigation {
     display: none;
   }
-  
+
   .lead-description {
     flex-direction: column;
   }
