@@ -2281,6 +2281,12 @@ h2 { font-family: "Damion", cursive; font-size: 31.5px; margin-bottom: 31px; }
 
 .last-client-child, .second-last-client-child { margin-bottom: 0; }
 
+.btn-clients { text-align: left !important; background-color: #6d3e22; border-radius: 0; margin-top: 15px; }
+
+.btn-clients a { color: white; }
+
+.pet-tech { margin-top: 15px; margin-bottom: 15px; }
+
 @media all and (max-width: 1199px) { .service { padding: 0 40px; }
   .contact-details { flex-direction: column; text-align: center; }
   .logo { margin-bottom: 25px; } }
@@ -2288,7 +2294,9 @@ h2 { font-family: "Damion", cursive; font-size: 31.5px; margin-bottom: 31px; }
   .services-container { width: 100%; } }
 @media all and (max-width: 768px) { .lead-description-container { padding: 0 15px; } }
 @media all and (max-width: 600px) { .lead-description { flex-direction: column; }
-  .owner-pic { order: 1; display: block; margin: 0 auto 20px auto; }
+  .owner-pic { order: 1; display: block; margin: 0 auto 20px auto; width: 75%; height: auto; }
   .lead-description p { order: 2; }
   .lead-description-container h2 { text-align: center; }
   .service { padding: 0 30px; } }
+@media all and (max-width: 530px) { .services { padding: 25px 5px; }
+  .service { padding: 0 5px; } }

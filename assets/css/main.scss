@@ -222,6 +222,22 @@ h2 {
   margin-bottom: 0;
 }
 
+.btn-clients {
+  text-align: left !important;
+  background-color: $poop;
+  border-radius: 0;
+  margin-top: 15px;
+}
+
+.btn-clients a {
+  color: white;
+}
+
+.pet-tech {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 @media all and (max-width: 1199px) {
   .service {
     padding: 0 40px;
@@ -262,6 +278,8 @@ h2 {
     order: 1;
     display: block;
     margin: 0 auto 20px auto;
+    width: 75%;
+    height: auto;
   }
 
   .lead-description p {
@@ -274,5 +292,14 @@ h2 {
 
   .service {
     padding: 0 30px;
+  }
+}
+
+@media all and (max-width: 530px) {
+  .services {
+    padding: 25px 5px;
+  }
+  .service {
+    padding: 0 5px;
   }
 }
