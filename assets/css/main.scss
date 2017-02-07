@@ -43,7 +43,7 @@ ul {
 
 h2 {
   font-family: $damion;
-  font-size: 31.5px;
+  font-size: 31px;
   margin-bottom: 31px;
 }
 
@@ -227,6 +227,11 @@ h2 {
   background-color: $poop;
   border-radius: 0;
   margin-top: 15px;
+  transition: .3s;
+}
+
+.btn-clients:hover {
+  background-color: black;
 }
 
 .btn-clients a {
@@ -234,8 +239,35 @@ h2 {
 }
 
 .pet-tech {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  width: 60%;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+/* footer */
+
+.footer-wrapper {
+  text-align: left;
+  padding-bottom: 0;
+}
+
+.form-group input {
+  margin-bottom: 9px;
+}
+
+.form-group input, .form-group textarea {
+  border-radius: 0;
+  border: none;
+  resize: none;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  outline: 0;
+  webkit-appearance: none;
+}
+
+.btn-danger {
+  background-color: $red;
 }
 
 @media all and (max-width: 1199px) {
