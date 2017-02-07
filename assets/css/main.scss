@@ -295,6 +295,7 @@ footer * {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
 .fb {
@@ -303,6 +304,12 @@ footer * {
 
 .gplus {
   color: $gplus
+}
+
+.impactstudio {
+  width: 150px;
+  height: auto;
+  padding-left: 5px;
 }
 
 
@@ -329,15 +336,31 @@ footer * {
   .services-container {
     width: 100%;
   }
+
+  .footer-links {
+    flex-direction: column-reverse;
+  }
+
+  .social-links {
+    margin-bottom: 15px;
+  }
 }
 
 @media all and (max-width: 768px) {
   .lead-description-container {
     padding: 0 15px;
   }
+
+  .navigation {
+    font-size: 13px;
+  }
 }
 
 @media all and (max-width: 600px) {
+  .navigation {
+    display: none;
+  }
+  
   .lead-description {
     flex-direction: column;
   }
