@@ -2247,6 +2247,9 @@ h2 { font-family: "Damion", cursive; font-size: 31.5px; margin-bottom: 31px; }
 
 .navigation ul li a:active, .navigation ul li a:hover, .navigation ul li a:link { color: black !important; }
 
+/* home */
+.home-conent-wrapper { padding: 25px; background-color: #f1f1f1; text-align: center; }
+
 /* home - lead description */
 .lead-description { display: flex; justify-content: space-between; text-align: justify; }
 
@@ -2256,8 +2259,6 @@ h2 { font-family: "Damion", cursive; font-size: 31.5px; margin-bottom: 31px; }
 
 /* home - services */
 .home-section-headline { font-size: 18px; font-family: "Pangolin", cursive; background-color: #ff0000; width: 100%; padding: 15px; color: white; text-transform: uppercase; margin-bottom: 0; }
-
-.services { padding: 25px; background-color: #f1f1f1; text-align: center; }
 
 .service { text-decoration: none; display: inline-block; border-right: 1px solid #e1d9cc; padding: 0 60px; }
 
@@ -2270,3 +2271,12 @@ h2 { font-family: "Damion", cursive; font-size: 31.5px; margin-bottom: 31px; }
 .btn-service a { color: white; }
 
 .btn-service:hover { background-color: black; }
+
+/* home - clients */
+.clients { overflow: hidden; }
+
+.clients li { list-style: none; }
+
+.img-client { width: 100%; height: auto; }
+
+.img-client:first-child, .img-client:nth-child(2) { margin-bottom: 25px; }

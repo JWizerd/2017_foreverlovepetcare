@@ -129,6 +129,13 @@ h2 {
   color: black !important;
 }
 
+/* home */
+.home-conent-wrapper {
+  padding: 25px;
+  background-color: $cream;
+  text-align: center;
+}
+
 /* home - lead description */
 
 .lead-description {
@@ -163,11 +170,7 @@ h2 {
   margin-bottom: 0;
 }
 
-.services {
-  padding: 25px;
-  background-color: $cream;
-  text-align: center;
-}
+.services {}
 
 .service {
   text-decoration: none;
@@ -198,4 +201,23 @@ h2 {
 
 .btn-service:hover {
   background-color: black;
+}
+
+/* home - clients */
+
+.clients {
+  overflow: hidden;
+}
+
+.clients li {
+  list-style: none;
+}
+
+.img-client {
+  width: 100%;
+  height: auto;
+}
+
+.img-client:first-child, .img-client:nth-child(2) {
+  margin-bottom: 25px;
 }
