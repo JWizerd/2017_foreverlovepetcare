@@ -2239,7 +2239,7 @@ h2 { font-family: "Damion", cursive; font-size: 31.5px; margin-bottom: 31px; }
 .dog-banner { width: 100%; height: auto; display: block; margin: 0 auto 30px auto; }
 
 /* navigation */
-.navigation { background-color: #ff0000; font-family: "Pangolin", cursive; padding: 16px 25px; font-size: 16px; text-transform: uppercase; }
+.navigation { background-color: #ff0000; font-family: "Pangolin", cursive; padding: 16px 25px; font-size: 16px; text-transform: uppercase; margin-bottom: 20px; }
 
 .navigation, .navigation ul li a { color: white; }
 
@@ -2277,6 +2277,18 @@ h2 { font-family: "Damion", cursive; font-size: 31.5px; margin-bottom: 31px; }
 
 .clients li { list-style: none; }
 
-.img-client { width: 100%; height: auto; }
+.img-client { width: 100%; height: auto; margin-bottom: 25px; }
 
-.img-client:first-child, .img-client:nth-child(2) { margin-bottom: 25px; }
+.last-client-child, .second-last-client-child { margin-bottom: 0; }
+
+@media all and (max-width: 1199px) { .service { padding: 0 40px; }
+  .contact-details { flex-direction: column; text-align: center; }
+  .logo { margin-bottom: 25px; } }
+@media all and (max-width: 991px) { .header { padding-top: 0; }
+  .services-container { width: 100%; } }
+@media all and (max-width: 768px) { .lead-description-container { padding: 0 15px; } }
+@media all and (max-width: 600px) { .lead-description { flex-direction: column; }
+  .owner-pic { order: 1; display: block; margin: 0 auto 20px auto; }
+  .lead-description p { order: 2; }
+  .lead-description-container h2 { text-align: center; }
+  .service { padding: 0 30px; } }
