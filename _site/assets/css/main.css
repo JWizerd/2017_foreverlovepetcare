@@ -2297,6 +2297,9 @@ h2 { font-family: "Damion", cursive; font-size: 31px; margin-bottom: 31px; }
 /* subpage - about */
 .about-me-pic { width: 100%; height: auto; }
 
+/* subpage - services */
+th, tr { padding: 10px; font-family: "Pangolin", cursive; }
+
 /* footer */
 footer * { font-family: "Pangolin", cursive; }
 
