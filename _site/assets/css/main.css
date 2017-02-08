@@ -2319,12 +2319,12 @@ footer * { font-family: "Pangolin", cursive; }
   .social-links { margin-bottom: 15px; } }
 @media all and (max-width: 768px) { .lead-description-container { padding: 0 15px; }
   .navigation { font-size: 13px; } }
+@media all and (max-width: 700px) { .service { padding: 0 24px; } }
 @media all and (max-width: 600px) { .navigation { display: none; }
   .lead-description { flex-direction: column; }
   .lead-description p { width: 100%; }
   .owner-pic { order: 1; display: block; margin: 0 auto 20px auto; width: 75%; height: auto; }
   .lead-description p { order: 2; }
-  .lead-description-container h2 { text-align: center; }
-  .service { padding: 0 30px; } }
+  .lead-description-container h2 { text-align: center; } }
 @media all and (max-width: 530px) { .services { padding: 25px 5px; }
   .service { padding: 0 5px; } }

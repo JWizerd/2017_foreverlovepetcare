@@ -360,6 +360,12 @@ footer * {
   }
 }
 
+@media all and (max-width: 700px) {
+  .service {
+    padding: 0 24px;
+  }
+}
+
 @media all and (max-width: 600px) {
   .navigation {
     display: none;
@@ -387,10 +393,6 @@ footer * {
 
   .lead-description-container h2 {
     text-align: center;
-  }
-
-  .service {
-    padding: 0 30px;
   }
 }
 
