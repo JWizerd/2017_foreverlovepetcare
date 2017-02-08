@@ -2243,7 +2243,7 @@ h2 { font-family: "Damion", cursive; font-size: 31px; margin-bottom: 31px; }
 
 .navigation, .navigation ul li a { color: white; }
 
-.navigation ul { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; justify-content: space-between; list-style: none; align-items: center; margin-bottom: 0; }
+.navigation ul { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; -webkit-justify-content: space-between; justify-content: space-between; list-style: none; align-items: center; margin-bottom: 0; }
 
 .navigation ul li a:active, .navigation ul li a:hover, .navigation ul li a:link { color: black !important; }
 
@@ -2251,7 +2251,7 @@ h2 { font-family: "Damion", cursive; font-size: 31px; margin-bottom: 31px; }
 .home-conent-wrapper { padding: 25px; background-color: #f1f1f1; text-align: center; }
 
 /* home - lead description */
-.lead-description { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; justify-content: space-between; text-align: justify; }
+.lead-description { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; -webkit-justify-content: space-between; justify-content: space-between; text-align: justify; }
 
 .owner-pic { width: 150px; height: 150px; margin-left: 30px; order: 2; }
 
@@ -2266,11 +2266,11 @@ h2 { font-family: "Damion", cursive; font-size: 31px; margin-bottom: 31px; }
 
 .service-title { font-size: 14px; font-family: "Pangolin", cursive; color: #6d3e22; }
 
-.btn-service { border-radius: 0; background-color: #6d3e22; transition: .3s; }
+.btn-service { border-radius: 0; background-color: black; transition: .3s; }
 
 .btn-service a { color: white; }
 
-.btn-service:hover { background-color: black; }
+.btn-service:hover { background-color: #ff0000; }
 
 /* home - clients */
 .clients { overflow: hidden; }
@@ -2281,9 +2281,9 @@ h2 { font-family: "Damion", cursive; font-size: 31px; margin-bottom: 31px; }
 
 .last-client-child, .second-last-client-child { margin-bottom: 0; }
 
-.btn-clients { text-align: left !important; background-color: #6d3e22; border-radius: 0; margin-top: 15px; transition: .3s; }
+.btn-clients { text-align: left !important; background-color: black; border-radius: 0; margin-top: 15px; transition: .3s; }
 
-.btn-clients:hover { background-color: black; }
+.btn-clients:hover { background-color: #ff0000; }
 
 .btn-clients a { color: white; }
 
@@ -2302,7 +2302,7 @@ footer * { font-family: "Pangolin", cursive; }
 
 .btn-danger { background-color: #ff0000; }
 
-.footer-links { text-transform: uppercase; font-weight: bold; color: #6d3e22; list-style: none; display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; justify-content: space-between; align-items: center; text-align: center; }
+.footer-links { text-transform: uppercase; font-weight: bold; color: #6d3e22; list-style: none; display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; -webkit-justify-content: space-between; justify-content: space-between; align-items: center; text-align: center; }
 
 .fb { color: #3b5998; }
 
