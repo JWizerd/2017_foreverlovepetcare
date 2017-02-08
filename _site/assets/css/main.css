@@ -2328,3 +2328,8 @@ footer * { font-family: "Pangolin", cursive; }
   .lead-description-container h2 { text-align: center; } }
 @media all and (max-width: 530px) { .services { padding: 25px 5px; }
   .service { padding: 0 5px; } }
+@media all and (max-width: 360px) { .service { padding: 0 2px; border-right: 0; }
+  .btn-service { padding: 6px 8px; } }
+@media all and (max-width: 331px) { .service { padding: 0 2px; border-right: 0; }
+  .service:nth-child(3) { margin-top: 15px; }
+  .btn-service { padding: 6px 8px; } }
