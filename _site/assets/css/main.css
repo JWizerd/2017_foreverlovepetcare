@@ -2253,9 +2253,9 @@ h2 { font-family: "Damion", cursive; font-size: 31px; margin-bottom: 31px; }
 /* home - lead description */
 .lead-description { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; -webkit-justify-content: space-between; justify-content: space-between; text-align: justify; }
 
-.owner-pic { width: 150px; height: 150px; margin-left: 30px; order: 2; }
+.owner-pic { width: 24%; height: 150px; margin-left: 30px; order: 2; }
 
-.lead-description p { font-size: 18px; order: 1; }
+.lead-description p { font-size: 18px; order: 1; width: 76%; }
 
 /* home - services */
 .home-section-headline { font-size: 18px; font-family: "Pangolin", cursive; background-color: #ff0000; width: 100%; padding: 15px; color: white; text-transform: uppercase; margin-bottom: 0; }
@@ -2321,6 +2321,7 @@ footer * { font-family: "Pangolin", cursive; }
   .navigation { font-size: 13px; } }
 @media all and (max-width: 600px) { .navigation { display: none; }
   .lead-description { flex-direction: column; }
+  .lead-description p { width: 100%; }
   .owner-pic { order: 1; display: block; margin: 0 auto 20px auto; width: 75%; height: auto; }
   .lead-description p { order: 2; }
   .lead-description-container h2 { text-align: center; }
