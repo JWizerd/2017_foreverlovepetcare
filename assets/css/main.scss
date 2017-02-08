@@ -288,6 +288,17 @@ th, tr {
   font-family: $pangolin;
 }
 
+/* subpage - clients */
+
+.fb-album-container {
+  color: white;
+}
+
+.facebook-photo {
+  height: 247px;
+  width: 100%;
+}
+
 /* footer */
 
 footer * {
@@ -449,6 +460,10 @@ footer * {
   .about-description-wrapper {
     width: 100%;
   }
+
+  .facebook-photo {
+    height: 200px;
+  }
 }
 
 @media all and (max-width: 530px) {
@@ -457,6 +472,13 @@ footer * {
   }
   .service {
     padding: 0 5px;
+  }
+  .facebook-photo-wrapper {
+    width: 50%;
+  }
+
+  .facebook-photo {
+    height: 275px;
   }
 }
 
@@ -483,5 +505,9 @@ footer * {
 
   .btn-service {
     padding: 6px 8px;
+  }
+
+  .facebook-photo {
+    height: 250px;
   }
 }

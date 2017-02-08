@@ -2305,6 +2305,11 @@ th, tr { padding: 10px; font-family: "Pangolin", cursive; }
 
 .ways-to-contact li, .ways-to-contact li a { font-family: "Pangolin", cursive; }
 
+/* subpage - clients */
+.fb-album-container { color: white; }
+
+.facebook-photo { height: 247px; width: 100%; }
+
 /* footer */
 footer * { font-family: "Pangolin", cursive; }
 
@@ -2346,11 +2351,15 @@ footer * { font-family: "Pangolin", cursive; }
   h2 { text-align: center; }
   .bio-pic-wrapper { width: 100%; margin: 0 auto 20px auto; }
   .about-me-pic { display: block; margin: 20px auto; width: 40%; }
-  .about-description-wrapper { width: 100%; } }
+  .about-description-wrapper { width: 100%; }
+  .facebook-photo { height: 200px; } }
 @media all and (max-width: 530px) { .services { padding: 25px 5px; }
-  .service { padding: 0 5px; } }
+  .service { padding: 0 5px; }
+  .facebook-photo-wrapper { width: 50%; }
+  .facebook-photo { height: 275px; } }
 @media all and (max-width: 360px) { .service { padding: 0 2px; border-right: 0; }
   .btn-service { padding: 6px 8px; } }
 @media all and (max-width: 331px) { .service { padding: 0 2px; border-right: 0; }
   .service:nth-child(3) { margin-top: 15px; }
-  .btn-service { padding: 6px 8px; } }
+  .btn-service { padding: 6px 8px; }
+  .facebook-photo { height: 250px; } }
