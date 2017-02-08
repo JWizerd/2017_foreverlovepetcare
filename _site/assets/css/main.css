@@ -2245,7 +2245,7 @@ h2 { font-family: "Damion", cursive; font-size: 31px; margin-bottom: 31px; }
 
 .navigation ul { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; -webkit-justify-content: space-between; justify-content: space-between; list-style: none; align-items: center; margin-bottom: 0; }
 
-.navigation ul li a:active, .navigation ul li a:hover, .navigation ul li a:link { color: black !important; }
+.nav-link:active { color: black; }
 
 /* home */
 .home-conent-wrapper { padding: 25px; background-color: #f1f1f1; text-align: center; }
@@ -2289,6 +2289,14 @@ h2 { font-family: "Damion", cursive; font-size: 31px; margin-bottom: 31px; }
 
 .pet-tech { width: 60%; display: block; margin: 20px auto 0 auto; }
 
+/* subpage */
+.subpage-wrapper p { text-align: justify; }
+
+.subpage-wrapper h2 { margin-top: 0; }
+
+/* subpage - about */
+.about-me-pic { width: 100%; height: auto; }
+
 /* footer */
 footer * { font-family: "Pangolin", cursive; }
 
@@ -2325,7 +2333,10 @@ footer * { font-family: "Pangolin", cursive; }
   .lead-description p { width: 100%; }
   .owner-pic { order: 1; display: block; margin: 0 auto 20px auto; width: 75%; height: auto; }
   .lead-description p { order: 2; }
-  .lead-description-container h2 { text-align: center; } }
+  h2 { text-align: center; }
+  .bio-pic-wrapper { width: 100%; margin: 0 auto 20px auto; }
+  .about-me-pic { display: block; margin: 20px auto; width: 40%; }
+  .about-description-wrapper { width: 100%; } }
 @media all and (max-width: 530px) { .services { padding: 25px 5px; }
   .service { padding: 0 5px; } }
 @media all and (max-width: 360px) { .service { padding: 0 2px; border-right: 0; }

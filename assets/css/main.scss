@@ -131,10 +131,12 @@ h2 {
   margin-bottom: 0;
 }
 
-.navigation ul li a:active,
 .navigation ul li a:hover,
-.navigation ul li a:link {
-  color: black !important;
+.navigation ul li a:focus {
+}
+
+.nav-link:active {
+  color: black;
 }
 
 /* home */
@@ -254,6 +256,23 @@ h2 {
   width: 60%;
   display: block;
   margin: 20px auto 0 auto;
+}
+
+/* subpage */
+
+.subpage-wrapper p {
+  text-align: justify;
+}
+
+.subpage-wrapper h2 {
+  margin-top: 0;
+}
+
+/* subpage - about */
+
+.about-me-pic {
+  width: 100%;
+  height: auto;
 }
 
 /* footer */
@@ -391,8 +410,23 @@ footer * {
     order: 2;
   }
 
-  .lead-description-container h2 {
+  h2 {
     text-align: center;
+  }
+
+  .bio-pic-wrapper {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+
+  .about-me-pic {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+  }
+
+  .about-description-wrapper {
+    width: 100%;
   }
 }
 
