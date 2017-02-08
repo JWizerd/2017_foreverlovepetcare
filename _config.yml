@@ -2,8 +2,8 @@ title: Forever Love Pet Care - Loveland Dog Walking and Pet Care
 email: foreverlovepetcare@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
   Forever Love Pet Care provides dog walking, drop-ins, overnight stays and other pet care services to residents of Loveland, Colorado 80537; 80538; 80521
-baseurl: "/foreverlovepetcare" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
+baseurl: "/2017_foreverlovepetcare" # the subpath of your site, e.g. /blog
+url: "https://jwizerd.github.io" # the base hostname & protocol for your site
 github_username:  jwizerd
 
 # Build settings
