@@ -19,6 +19,8 @@ function facebookClientGallery() {
 }
 
 function mobileMenu() {
+  $navigationList = $('.navigation ul');
+  $('.mobile-menu').append($navigationList);
   $('.hamburger').on('click', function() {
     $('.mobile-menu ul').slideToggle('fast', function() {
       $('.mobile-menu ul').show();
@@ -62,5 +64,7 @@ $contactForm.submit(function(e) {
 
 $(document).ready(function() {
   facebookClientGallery();
-  mobileMenu();
+  if (window.outerWidth < 600) {
+    mobileMenu();
+  }
 });
