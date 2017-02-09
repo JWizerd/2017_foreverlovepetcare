@@ -324,6 +324,10 @@ th, tr {
   margin-bottom: 10px;
 }
 
+a.website-link:hover {
+  color: $red;
+}
+
 /* footer */
 
 footer * {

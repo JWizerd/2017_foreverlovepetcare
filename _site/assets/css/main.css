@@ -2319,6 +2319,8 @@ th, tr { padding: 10px; font-family: "Pangolin", cursive; }
 
 .five-stars { width: 12%; height: auto; margin-bottom: 10px; }
 
+a.website-link:hover { color: #ff0000; }
+
 /* footer */
 footer * { font-family: "Pangolin", cursive; }
 
