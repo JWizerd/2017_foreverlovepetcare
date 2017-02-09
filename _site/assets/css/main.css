@@ -2310,6 +2310,15 @@ th, tr { padding: 10px; font-family: "Pangolin", cursive; }
 
 .facebook-photo { height: 247px; width: 100%; }
 
+/* subpage - reviews */
+.review { background-color: #ddd; border-radius: 10px; list-style: none; margin-bottom: 20px; padding: 20px; }
+
+.review h3, .review p, .review a { font-family: "Pangolin", cursive; }
+
+.review h3 { margin-top: 0; margin-bottom: 5px; }
+
+.five-stars { width: 12%; height: auto; margin-bottom: 10px; }
+
 /* footer */
 footer * { font-family: "Pangolin", cursive; }
 
@@ -2337,7 +2346,8 @@ footer * { font-family: "Pangolin", cursive; }
 @media all and (max-width: 991px) { .header { padding-top: 0; }
   .services-container { width: 100%; }
   .footer-links { flex-direction: column-reverse; }
-  .social-links { margin-bottom: 15px; } }
+  .social-links { margin-bottom: 15px; }
+  .five-stars { width: 20%; } }
 @media all and (max-width: 768px) { .lead-description-container { padding: 0 15px; }
   .navigation { font-size: 13px; } }
 @media all and (max-width: 700px) { .service { padding: 0 24px; }
@@ -2356,7 +2366,8 @@ footer * { font-family: "Pangolin", cursive; }
 @media all and (max-width: 530px) { .services { padding: 25px 5px; }
   .service { padding: 0 5px; }
   .facebook-photo-wrapper { width: 50%; }
-  .facebook-photo { height: 275px; } }
+  .facebook-photo { height: 275px; }
+  .five-stars { width: 40%; } }
 @media all and (max-width: 360px) { .service { padding: 0 2px; border-right: 0; }
   .btn-service { padding: 6px 8px; } }
 @media all and (max-width: 331px) { .service { padding: 0 2px; border-right: 0; }

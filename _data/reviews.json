@@ -1,30 +1,44 @@
-{
-  "name":"Jeremiah Wodke",
-  "location":"Loveland, CO",
-  "review":"Kayla is amazing with animals of all kinds! She has a way with animals unlike i've ever seen. I guarantee that you will NOT REGRET choosing her for your Pet Care needs."
-},
-{
-  "name":"Andrea Toole",
-  "location":"Loveland, CO",
-  "review":"Kayla loves animals and it shows! She will take care of your pet like her own, because she knows how much pets are a part of your family."
-},
-{
-  "name":"Drezden Kinnaird",
-  "location":"Loveland, CO",
-  "review":"Fantastic job taking care of all our critters- fur, feathers, or scales...we didn't have to worry one bit. Everyone was given the TLC and time they needed, especially our dog, Sadie, who is in her late teens. Highly recommended!"
-},
-{
-  "name":"Alyssa Cuppy",
-  "location":"Loveland, CO",
-  "review":"Very trustworthy and her love for ALL animals is so evident!"
-},
-{
-  "name":"Stephanie Tafoya",
-  "location":"Loveland, CO",
-  "review":"Absolutely great care for our dog when were in the move! Would gladly recommend to anyone wanting a professional and kind service!"
-},
-{
-  "name":"Doug Kemp",
-  "location":"Loveland, CO",
-  "review":"Kayla went above my expectations when my plans changed! I was very satisfied and definitely recommend her pet care services."
-}
+[
+  {
+    "name":"Jeremiah Wodke",
+    "location":"Loveland, CO",
+    "review":"Kayla is amazing with animals of all kinds! She has a way with animals unlike i've ever seen. I guarantee that you will NOT REGRET choosing her for your Pet Care needs.",
+    "link": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Forever+Love+Pet+Care+3608+N.+Madison+Loveland&lrd=0x87695305f5ceb561:0xc960fe5e6bfe5da5,1,",
+    "network":"Google"
+  },
+  {
+    "name":"Andrea Toole",
+    "location":"Loveland, CO",
+    "review":"Kayla loves animals and it shows! She will take care of your pet like her own, because she knows how much pets are a part of your family.",
+    "link": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Forever+Love+Pet+Care+3608+N.+Madison+Loveland&lrd=0x87695305f5ceb561:0xc960fe5e6bfe5da5,1,",
+    "network":"Google"
+  },
+  {
+    "name":"Drezden Kinnaird",
+    "location":"Loveland, CO",
+    "review":"Fantastic job taking care of all our critters- fur, feathers, or scales...we didn't have to worry one bit. Everyone was given the TLC and time they needed, especially our dog, Sadie, who is in her late teens. Highly recommended!",
+    "link": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Forever+Love+Pet+Care+3608+N.+Madison+Loveland&lrd=0x87695305f5ceb561:0xc960fe5e6bfe5da5,1,",
+    "network": "Google"
+  },
+  {
+    "name":"Alyssa Cuppy",
+    "location":"Loveland, CO",
+    "review":"Very trustworthy and her love for ALL animals is so evident!",
+    "link": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Forever+Love+Pet+Care+3608+N.+Madison+Loveland&lrd=0x87695305f5ceb561:0xc960fe5e6bfe5da5,1,",
+    "network": "Google"
+  },
+  {
+    "name":"Stephanie Tafoya",
+    "location":"Loveland, CO",
+    "review":"Absolutely great care for our dog when were in the move! Would gladly recommend to anyone wanting a professional and kind service!",
+    "link": "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Forever+Love+Pet+Care+3608+N.+Madison+Loveland&lrd=0x87695305f5ceb561:0xc960fe5e6bfe5da5,1,",
+    "network": "Google"
+  },
+  {
+    "name":"Doug Kemp",
+    "location":"Loveland, CO",
+    "review":"Kayla went above my expectations when my plans changed! I was very satisfied and definitely recommend her pet care services.",
+    "link": "https://www.facebook.com/pg/LovelandPetCare/reviews/",
+    "network": "Facebook"
+  }
+]

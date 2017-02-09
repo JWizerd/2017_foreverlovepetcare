@@ -299,6 +299,31 @@ th, tr {
   width: 100%;
 }
 
+/* subpage - reviews */
+
+.review {
+  background-color: #ddd;
+  border-radius: 10px;
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.review h3, .review p, .review a {
+  font-family: $pangolin;
+}
+
+.review h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.five-stars {
+  width: 12%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 /* footer */
 
 footer * {
@@ -391,6 +416,10 @@ footer * {
   .social-links {
     margin-bottom: 15px;
   }
+
+  .five-stars {
+    width: 20%;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -479,6 +508,10 @@ footer * {
 
   .facebook-photo {
     height: 275px;
+  }
+
+  .five-stars {
+    width: 40%;
   }
 }
 
