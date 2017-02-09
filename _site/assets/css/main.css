@@ -2342,6 +2342,8 @@ footer * { font-family: "Pangolin", cursive; }
 
 .btn-danger { background-color: #ff0000; }
 
+.alert--loading { background-color: black !important; }
+
 .footer-links { text-transform: uppercase; font-weight: bold; color: #6d3e22; list-style: none; display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; -webkit-justify-content: space-between; justify-content: space-between; align-items: center; text-align: center; }
 
 .fb { color: #3b5998; }

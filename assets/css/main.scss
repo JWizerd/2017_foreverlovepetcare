@@ -387,6 +387,10 @@ footer * {
   background-color: $red;
 }
 
+.alert--loading {
+  background-color: black !important;
+}
+
 .footer-links {
   text-transform: uppercase;
   font-weight: bold;

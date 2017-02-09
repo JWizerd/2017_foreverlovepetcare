@@ -148,23 +148,23 @@
       <h2 class="home-section-headline">Get in Touch</h2>
       <section class="footer-wrapper home-conent-wrapper">
         <p class="disclaimer"><strong>*contact requests made after 6p.m. MST will be replied to the following day </strong></p>
-        <form action="" class="row" class="get-in-touch-form">
+        <form action="//formspree.io/foreverlovepetcare@yahoo.com" class="row get-in-touch-form" method="POST">
           <div class="col-sm-6">
             <div class="form-group">
-              <input type="text" name="name" placeholder="Full Name" class="form-control">
-              <input type="text" name="tel" placeholder="Phone Number" class="form-control">
-              <input type="text" name="tel" placeholder="What kind(s) of Pet(s) do you have?" class="form-control">
-              <input type="text" name="text" placeholder="Best time to contact you? i.e. morning, evening" class="form-control">
+              <input type="text" name="name" placeholder="Full Name" class="form-control" required>
+              <input type="tel" name="phone" placeholder="Phone Number" class="form-control" required>
+              <input type="text" name="pets" placeholder="What kind(s) of Pet(s) do you have?" class="form-control" required>
+              <input type="text" name="contact-time" placeholder="Best time to contact you? i.e. morning, evening" class="form-control" required>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="form-group">
-              <textarea name="message" rows="8" cols="80" class="form-control" placeholder="Tell me about your pet(s) and their pet care needs"></textarea>
+              <textarea name="message" rows="8" cols="80" class="form-control" placeholder="Tell me about your pet(s) and their pet care needs" required></textarea>
             </div>
           </div>
           <div class="col-sm-12">
             <div class="form-group">
-              <input type="submit" value="Submit" class="btn btn-danger">
+              <input type="submit" value="Submit" class="btn btn-danger btn-get-in-touch">
             </div>
           </div>
         </form>
