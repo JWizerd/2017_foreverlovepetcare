@@ -38,32 +38,35 @@ function mobileMenu() {
   });
 }
 
-var $contactForm = $('.get-in-touch-form');
-var $btn = $('.btn-get-in-touch');
-$contactForm.submit(function(e) {
-	e.preventDefault();
-	$.ajax({
-		url: '//formspree.io/foreverlovepetcare@yahoo.com',
-		method: 'POST',
-		data: $(this).serialize(),
-		dataType: 'json',
-		beforeSend: function() {
-      $btn.addClass('alert--loading');
-			$btn.prop('value', 'Sending Message...');
-		},
-		success: function(data) {
-			$btn.find('.alert--loading').hide();
-			$btn.prop('value', 'Message Sent!');
-		},
-		error: function(err) {
-			$contactForm.find('.alert--loading').hide();
-			$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
-		}
-	});
-});
+function formSpreeAjax() {
+  var $contactForm = $('.get-in-touch-form');
+  var $btn = $('.btn-get-in-touch');
+  $contactForm.submit(function(e) {
+  	e.preventDefault();
+  	$.ajax({
+  		url: '//formspree.io/foreverlovepetcare@yahoo.com',
+  		method: 'POST',
+  		data: $(this).serialize(),
+  		dataType: 'json',
+  		beforeSend: function() {
+        $btn.addClass('alert--loading');
+  			$btn.prop('value', 'Sending Message...');
+  		},
+  		success: function(data) {
+  			$btn.find('.alert--loading').hide();
+  			$btn.prop('value', 'Message Sent!');
+  		},
+  		error: function(err) {
+  			$contactForm.find('.alert--loading').hide();
+  			$contactForm.append('<div class="alert alert--error">Ops, there was an error.</div>');
+  		}
+  	});
+  });
+}
 
 $(document).ready(function() {
   facebookClientGallery();
+  formSpreeAjax();
   if (window.outerWidth < 600) {
     mobileMenu();
   }
