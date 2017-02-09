@@ -2239,13 +2239,21 @@ h2 { font-family: "Damion", cursive; font-size: 31px; margin-bottom: 31px; }
 .dog-banner { width: 100%; height: auto; display: block; margin: 0 auto 30px auto; }
 
 /* navigation */
-.navigation { background-color: #ff0000; font-family: "Pangolin", cursive; padding: 16px 25px; font-size: 16px; text-transform: uppercase; margin-bottom: 20px; }
+.navigation, .mobile-menu { background-color: #ff0000; font-family: "Pangolin", cursive; padding: 16px 25px; font-size: 16px; text-transform: uppercase; margin-bottom: 20px; }
 
-.navigation, .navigation ul li a { color: white; }
+.navigation, .navigation ul li a, .mobile-menu ul li a { color: white; }
 
-.navigation ul { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; -webkit-justify-content: space-between; justify-content: space-between; list-style: none; align-items: center; margin-bottom: 0; }
+.navigation ul, .mobile-menu ul { display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */ display: -ms-flexbox; /* TWEENER - IE 10 */ display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */ display: flex; -webkit-justify-content: space-between; justify-content: space-between; list-style: none; align-items: center; margin-bottom: 0; }
 
-.navigation ul li a:hover, .navigation ul li a:active { color: black !important; }
+.mobile-menu { position: relative; padding-bottom: 48px; display: none; }
+
+.mobile-menu ul { flex-direction: column; text-align: center; margin-top: 70px; }
+
+.mobile-menu ul li { line-height: 40px; }
+
+.mobile-menu img { width: 35px; height: 25px; position: absolute; top: 0; right: 0; display: block; margin: 20px; }
+
+.mobile-menu ul li a:hover, .mobile-menu ul li a:active, .navigation ul li a:hover, .navigation ul li a:active { color: black !important; }
 
 /* home */
 .home-conent-wrapper { padding: 25px; background-color: #f1f1f1; text-align: center; }
@@ -2355,7 +2363,9 @@ footer * { font-family: "Pangolin", cursive; }
 @media all and (max-width: 700px) { .service { padding: 0 24px; }
   .ways-to-contact { font-size: 18px; }
   .ways-to-contact-link { display: block; } }
-@media all and (max-width: 600px) { .navigation { display: none; }
+@media all and (max-width: 600px) { .mobile-menu { display: block; }
+  .mobile-menu ul, img.cross { display: none; }
+  .navigation { display: none; }
   .lead-description { flex-direction: column; }
   .lead-description p { width: 100%; }
   .owner-pic { order: 1; display: block; margin: 0 auto 20px auto; width: 75%; height: auto; }

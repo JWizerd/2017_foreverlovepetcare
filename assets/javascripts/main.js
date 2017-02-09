@@ -18,6 +18,25 @@
     });
   }
 
+  function mobileMenu() {
+    $('.hamburger').on('click', function() {
+      $('.mobile-menu ul').slideToggle('slow', function() {
+        $('.mobile-menu ul').show();
+      });
+      $('.hamburger').hide();
+      $('.cross').show();
+    });
+
+    $('.cross').on('click', function() {
+      $('.mobile-menu ul').slideToggle('slow', function() {
+        $('.mobile-menu ul').hide();
+      });
+      $('.cross').hide();
+      $('.hamburger').show();
+    });
+  }
+
   $(document).ready(function() {
     facebookClientGallery();
+    mobileMenu();
   });
