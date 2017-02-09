@@ -20,7 +20,7 @@
 
   function mobileMenu() {
     $('.hamburger').on('click', function() {
-      $('.mobile-menu ul').slideToggle('slow', function() {
+      $('.mobile-menu ul').slideToggle('fast', function() {
         $('.mobile-menu ul').show();
       });
       $('.hamburger').hide();
@@ -28,7 +28,7 @@
     });
 
     $('.cross').on('click', function() {
-      $('.mobile-menu ul').slideToggle('slow', function() {
+      $('.mobile-menu ul').slideToggle('fast', function() {
         $('.mobile-menu ul').hide();
       });
       $('.cross').hide();
