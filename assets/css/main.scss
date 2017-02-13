@@ -484,9 +484,7 @@ footer * {
   .navigation {
     display: none;
   }
-}
 
-@media all and (max-width: 600px) {
   .mobile-menu {
     display: block;
   }
@@ -494,6 +492,9 @@ footer * {
   .mobile-menu ul, img.cross {
     display: none;
   }
+}
+
+@media all and (max-width: 600px) {
 
   .lead-description {
     flex-direction: column;
