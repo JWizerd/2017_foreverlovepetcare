@@ -2364,10 +2364,10 @@ footer * { font-family: "Pangolin", cursive; }
   .navigation { font-size: 13px; } }
 @media all and (max-width: 700px) { .service { padding: 0 24px; }
   .ways-to-contact { font-size: 18px; }
-  .ways-to-contact-link { display: block; } }
+  .ways-to-contact-link { display: block; }
+  .navigation { display: none; } }
 @media all and (max-width: 600px) { .mobile-menu { display: block; }
   .mobile-menu ul, img.cross { display: none; }
-  .navigation { display: none; }
   .lead-description { flex-direction: column; }
   .lead-description p { width: 100%; }
   .owner-pic { order: 1; display: block; margin: 0 auto 20px auto; width: 75%; height: auto; }

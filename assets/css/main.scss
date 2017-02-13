@@ -480,6 +480,10 @@ footer * {
   .ways-to-contact-link {
     display: block;
   }
+
+  .navigation {
+    display: none;
+  }
 }
 
 @media all and (max-width: 600px) {
@@ -488,10 +492,6 @@ footer * {
   }
 
   .mobile-menu ul, img.cross {
-    display: none;
-  }
-
-  .navigation {
     display: none;
   }
 

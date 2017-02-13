@@ -67,7 +67,7 @@ function formSpreeAjax() {
 $(document).ready(function() {
   facebookClientGallery();
   formSpreeAjax();
-  if (window.outerWidth < 600) {
+  if (window.outerWidth < 700) {
     mobileMenu();
   }
 });
