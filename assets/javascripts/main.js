@@ -1,7 +1,7 @@
 function facebookClientGallery() {
   var openGraphUrl = "https://graph.facebook.com/v2.8/";
   var albumID = "936209046430553";
-  var token = "EAADPAHttTCwBABoL3ypQ0lZBs2K4QZBeFCivMErpXjLsxikQfPMkldHZC8VzVVTcTaDqpchwhwpsnRhvZBssw7L7wkVJItHEcw59gVYDDFJZBicMkWRgZCAk9R2poSXup2ZCY3TGZCE2JGOw75HXDOEcgtKAH8g0e5EZD";
+  var token = "EAADPAHttTCwBAOq5uq7ZCxjCwv4jre0hyteA8v03UdEDUHZAvIm9oef5J9pQtP4lXX1xdD0ZBP7qJEP9Kve9wPKvBfjV3Hcn5iTssz4AdGKLOOPGUZBUKcZAs6R18cou3PwuEl7mY0kVaJpaZBUXDTQfvtJZAJVR5awvv1238bRBQZDZD";
   var limit = "30";
 
   var endpoint = openGraphUrl + "/" + albumID + "/photos?access_token=" + token + "&fields=images&limit=" + limit;
